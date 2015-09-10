@@ -1,0 +1,62 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images1.pixlis.com/background-image-checkers-chequered-checkered-squares-seamless-tileable-mineral-green-marshland-236ftb.png");
+  background-size: 200px;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.socialmedia {
+  padding-top: 20px;
+}
+
+.jumbotron {
+  border: 10px solid black;
+  color: white;
+  background: rgba(20, 20, 20, 0.8);
+  height: 100%;
+  padding-top: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.homepage {
+  text-align: center;
+  padding-left: 0px;
+}
+
+#selfie {
+  border: solid white 5px;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+
+.portfolioGrid {
+  margin-top: 10px;
+}
+.portfolioImg {
+  margin: 10px;
+  border: solid #39c 4px;
+}
+
+.clickedState {
+  border: solid white 4px;
+}
+
+@media(min-width: 750px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+  
+}
